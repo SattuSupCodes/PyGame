@@ -14,4 +14,12 @@ class PongGame:
     BALL_SPEED_Y = 5
     
     
-    
+    def __init__(self):
+        # initializing function init
+        font.init()
+        mixer.init()
+        
+        self.screen = display.set_mode((self.WIDTH, self.HEIGHT))
+        self.clock = time.Clock()
+        display.set_caption("Ping Pong")
+        
