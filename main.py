@@ -18,7 +18,7 @@ class PongGame:
         # initializing function init
         font.init()
         mixer.init()
-        
+        # set mode only works with one argument toh humne height or width ko ek saath ek tuple mai daal diya
         self.screen = display.set_mode((self.WIDTH, self.HEIGHT))
         self.clock = time.Clock()
         display.set_caption("Ping Pong")
