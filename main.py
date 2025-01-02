@@ -23,3 +23,14 @@ class PongGame:
         self.clock = time.Clock()
         display.set_caption("Ping Pong")
         
+        
+        # game variables
+        
+        self.player1
+        self.player2
+        self.ball_pos
+        self.BALL_SPEED #idk why sirf ye highlighted kyu hai
+        self.p1_score
+        self.p2_score
+        
+        
